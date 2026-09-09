@@ -31,6 +31,7 @@ public class ShapeCalculatorService {
     }
 
     private double required(Map<String, String> dimensions, String name) {
+        System.out.println("Getting todos");
         String rawValue = dimensions.get(name);
         double value;
         try {
