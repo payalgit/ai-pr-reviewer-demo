@@ -30,4 +30,4 @@ jobs:
       - name: Show PR diff
         run: |
           echo "===== PR Diff ====="
-          cat pr.diff.txt
+          cat pr-diff.txt
